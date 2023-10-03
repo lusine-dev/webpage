@@ -1,0 +1,62 @@
+/* =================================================================== */
+/* YELLOW var(--main-primary-color)
+====================================================================== */
+
+.home h1,
+.about .box-stats h3,
+.title-section h1 span,
+#menu li.active a,
+body.light #menu li.active a,
+.blog .post-container:hover .post-content .entry-header h3 a,
+.blog .post-content .entry-header h3 a:hover,
+.contact .custom-span-contact i,
+.portfolio .slideshow a,
+.portfolio .grid figure:hover figcaption,
+.blog-post .meta i {
+  color: var(--main-primary-color);
+}
+.home .home-details h1:before,
+.about .resume-box .icon,
+.contact ul.social li a:hover,
+body.light.contact ul.social li a:hover,
+.preloader .loader,
+.blog .page-link:hover,
+.blog .page-item.active .page-link,
+body.light.blog .page-link:hover,
+body.light.blog .page-item.active .page-link,
+.portfolio .grid li figure div,
+.header ul.icon-menu li.icon-box.react-tabs__tab--selected,
+.header ul.icon-menu li.icon-box:hover,
+.btn,
+.header .icon-box h2,
+.home .color-block,
+.title-section hr,
+.portfolio .slideshow .carousel-indicators li.active,
+.button:before,
+.button-icon {
+  background-color: var(--main-primary-color);
+}
+@media screen and (max-width: 991px) {
+  .header ul.icon-menu li.icon-box.react-tabs__tab--selected,
+  .header ul.icon-menu li.icon-box:hover,
+  body.light .header ul.icon-menu li.icon-box.react-tabs__tab--selected,
+  body.light .header ul.icon-menu li.icon-box:hover {
+    background: var(--main-primary-color) !important;
+  }
+}
+.contact .contactform input[type="text"]:focus,
+.contact .contactform input[type="email"]:focus,
+.contact .contactform textarea:focus,
+body.light.contact .contactform input[type="text"]:focus,
+body.light.contact .contactform input[type="email"]:focus,
+body.light.contact .contactform textarea:focus,
+.blog .page-item.active .page-link,
+.blog .page-link:hover,
+body.light.blog .page-item.active .page-link,
+body.light.blog .page-link:hover,
+.button {
+  border: 1px solid var(--main-primary-color);
+}
+.blog .post-thumb {
+  border-bottom: 5px solid var(--main-primary-color);
+}
